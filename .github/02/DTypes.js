@@ -5,6 +5,7 @@
 let name= "Dhruv" //String
 let age= 18 //number => 2^53
 let veryBigNum;//Bigint => for values larger than number can hold; used by websites like Reddit
+let BigNumber= 1830174169103142907n// n as suffix explicitally converts the var to BigInt
 //Boolean True or False
 //NaN
 
@@ -17,7 +18,9 @@ let me=undefined;
 //console.log(typeof me)// undefined
 
 //symbol =>for defining uniqueness for a var or func
-
+let Id=Symbol("1234")
+let AnotherId=Symbol("1234")
+console.log(Id==AnotherId)//false => even though the value given is same Symbol makes each one unique 
 
 //object
 /*console.log(typeof me)// here var is taken as var
