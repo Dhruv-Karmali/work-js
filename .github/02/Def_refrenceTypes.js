@@ -101,3 +101,14 @@ FavVillians.MARVEL="Thanos"
 console.log(FavVillians.MARVEL)
 
 FavVillians();
+
+let Heros=["SuperMan","BatMan","IronMan","CaptianAmerica","Thor","GreenLantern"]
+let SuperHeros=Heros
+
+SuperHeros[5]="Hulk"// Changes 5th Index of Heros too
+
+console.log(Heros)
+console.log(SuperHeros)//Same OutPut 
+
+Arr123=[1,2,3,12,23,31,"Dhruv",Symbol("Dhruv"),null,undefined]
+console.log(Arr123)
